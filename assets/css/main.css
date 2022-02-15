@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+ul .list-group-item {
+  border-bottom-color: #3f3a3a;
+  background-color: #1f1c1c;
+}
+ul .list-group-item a {
+  color: #d1d1d1;
+}
+ul .list-group-item .btn-success {
+  background-color: #0e4e01;
+  border-color: #0e4e01;
+}
+ul .list-group-item .btn-success:hover {
+  background-color: #205515;
+  border-color: #205515;
+}
+ul .list-group-item .btn-danger {
+  background-color: #500c0c;
+  border-color: #500c0c;
+}
+ul .list-group-item .btn-danger:hover {
+  background-color: #5c0e0e;
+  border-color: #5c0e0e;
+}
+ul .list-group-item .loadBar {
+  color: #00dd00;
+}
+
+#paginationList a {
+  background-color: #3f3a3a;
+  color: #e7e7e7;
+  border-color: #1f1c1c;
+}
+#paginationList a:focus {
+  box-shadow: 0 0 0 0 black;
+}
+#paginationList .disabled a {
+  color: #6d6d6d;
+}
+#paginationList .active {
+  color: #6d6d6d;
+  background-color: #242424;
+}
+#paginationList #firstButton {
+  border-top-width: 0;
+}
+
+.form-control {
+  height: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #3f3a3a;
+  border-color: #3f3a3a;
+  color: #e7e7e7;
+}
+.form-control::placeholder {
+  color: #6d6d6d;
+}
+.form-control:focus {
+  background-color: #3f3a3a;
+  border-color: #3f3a3a;
+  box-shadow: 0 0 0 0 black;
+  color: #e7e7e7;
+}
+
+/*# sourceMappingURL=main.css.map */

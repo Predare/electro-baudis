@@ -1,0 +1,94 @@
+$title_color: rgb(209, 209, 209);
+$light_color: rgb(231, 231, 231);
+$light_darker_color: rgb(109, 109, 109);
+$grey_darker: rgb(31, 28, 28);
+$grey_lighter: rgb(63, 58, 58);
+$grey_filled: rgb(36, 36, 36);
+$black: rgb(0,0,0);
+$green_color: rgb(14, 78, 1);
+$green_lighter: rgb(32, 85, 21);
+$red_color: rgb(80, 12, 12);
+$red_lighter: rgb(92, 14, 14);
+
+body {
+    background-color: $black;
+}
+
+ul {
+    .list-group-item{
+        border-bottom-color: $grey_lighter;
+        background-color: $grey_darker;
+        a{
+            color: $title_color;
+        }
+        .btn-success{
+            background-color: $green_color;
+            border-color: $green_color;
+            
+            &:hover{
+                background-color: $green_lighter;
+                border-color: $green_lighter;
+            }
+        }
+        
+        .btn-danger{
+            background-color: $red_color;
+            border-color: $red_color;
+
+            &:hover{
+                background-color: $red_lighter;
+                border-color: $red_lighter;
+            }
+        }
+        
+        .loadBar {
+            color: rgb(0, 221, 0)
+        }
+    }
+}
+
+#paginationList{
+    a{
+        background-color: $grey_lighter;
+        color:$light_color;
+        border-color: $grey_darker;
+      
+        &:focus{
+            box-shadow:0 0 0 0 rgb(0, 0, 0);
+        }
+    }
+
+    .disabled{
+        a{
+            color: $light_darker_color;
+        }
+    }
+
+    .active{
+            color: $light_darker_color;
+            background-color: $grey_filled;
+    }
+
+    #firstButton {
+        border-top-width: 0;
+    }
+}
+
+.form-control{
+    height: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: $grey_lighter;
+    border-color: $grey_lighter;
+    color: $light_color;
+    &::placeholder{
+        color: $light_darker_color;
+    }
+    &:focus{
+        background-color: $grey_lighter;
+        border-color: $grey_lighter;
+        box-shadow:0 0 0 0 rgb(0, 0, 0);
+        color: $light_color;
+    }
+
+}
